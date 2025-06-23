@@ -33,15 +33,6 @@ This roadmap outlines the development plan for porting the HuggingFace Tokenizer
 - Unicode normalization implementation
 - Unicode utilities with comprehensive tests
 
-#### Week 3: Regular Expression Engine
-
-- [ ] Design regex engine architecture
-- [ ] Implement regex parser (pattern → AST)
-- [ ] Create regex compiler (AST → bytecode/NFA)
-- [ ] Implement regex matcher with backtracking
-- [ ] Add support for common regex features (., \*, +, ?, [], |, ^, $)
-- [ ] Optimize with DFA compilation for simple patterns
-
 **Deliverables:**
 
 - Basic regex engine supporting common patterns
